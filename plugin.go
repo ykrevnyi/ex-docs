@@ -1,4 +1,4 @@
-package exdocs
+package main
 
 import (
 	"fmt"
@@ -9,6 +9,10 @@ import (
 
 func init() {
 	booklit.RegisterPlugin("ex-docs", NewPlugin)
+}
+
+func main() {
+
 }
 
 type Plugin struct {
