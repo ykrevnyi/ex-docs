@@ -1,4 +1,4 @@
-package main
+package exdocs
 
 import (
 	"fmt"
